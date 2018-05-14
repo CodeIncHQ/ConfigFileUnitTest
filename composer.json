@@ -12,6 +12,9 @@
   "autoload": {
     "psr-4": {"CodeInc\\ConfigFileUnitTest\\": "src/"}
   },
+  "autoload-dev": {
+    "psr-4": {"CodeInc\\ConfigFileUnitTest\\Tests\\": "test/"}
+  },
   "authors": [
     {
       "name": "Joan Fabrégat",
