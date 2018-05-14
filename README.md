@@ -7,7 +7,7 @@ This package provides a unit test based on [PHPUnit](https://phpunit.de/) to tes
 This library is available through [Packagist](https://packagist.org/packages/codeinc/config-file-unit-test) and can be installed using [Composer](https://getcomposer.org/): 
 
 ```bash
-composer require codeinc/config-file-unit-test
+composer require --dev codeinc/config-file-unit-test
 ```
 
 ## License
