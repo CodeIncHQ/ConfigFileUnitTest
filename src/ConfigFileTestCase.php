@@ -21,20 +21,20 @@
 //
 declare(strict_types=1);
 namespace CodeInc\ConfigFileUnitTest;
-use CodeInc\ConfigFileUnitTest\Tests\ConfigFileUnitTest;
+use CodeInc\ConfigFileUnitTest\Tests\ConfigFileTest;
 use PHPUnit\Framework\TestCase;
 
 
 /**
- * Class ConfigFileUnitTest
+ * Class ConfigFileTestCase
  *
- * @see ConfigFileUnitTest
+ * @see ConfigFileTest
  * @package CodeInc\ConfigFileUnitTest
  * @author  Joan Fabrégat <joan@codeinc.fr>
  * @license MIT <https://github.com/CodeIncHQ/ConfigFileUnitTest/blob/master/LICENSE>
  * @link https://github.com/CodeIncHQ/ConfigFileUnitTest
  */
-abstract class AbstractConfigFileUnitTest extends TestCase
+abstract class ConfigFileTestCase extends TestCase
 {
     /**
      * Assets that the $testFilePath has all the constants of the $srcFilePath.

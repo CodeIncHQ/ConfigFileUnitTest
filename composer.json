@@ -1,6 +1,6 @@
 {
   "name": "codeinc/config-file-unit-test",
-  "version": "1.0.0-beta.1",
+  "version": "1.0.0",
   "description": "A unit test for a PHP config file using constants",
   "homepage": "https://github.com/CodeIncHQ/ConfigFileUnitTest",
   "type": "library",
