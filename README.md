@@ -1,6 +1,6 @@
 # PHP config file unit test 
 
-This package provides a unit test based on [PhpUnit](https://phpunit.de/) to test PHP config files using constants.
+This package provides a unit test based on [PHPUnit](https://phpunit.de/) to test PHP config files using constants.
 
 ## Installation
 
