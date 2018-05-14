@@ -20,6 +20,7 @@
 // Project:  ConfigFileUnitTest
 //
 declare(strict_types=1);
+namespace CodeInc\ConfigFileUnitTest;
 use CodeInc\ConfigFileUnitTest\Tests\ConfigFileTest;
 use PHPUnit\Framework\TestCase;
 
@@ -27,6 +28,7 @@ use PHPUnit\Framework\TestCase;
 /**
  * Class ConfigFileTestCase
  *
+ * @see ConfigFileTest
  * @package CodeInc\ConfigFileUnitTest
  * @author  Joan Fabrégat <joan@codeinc.fr>
  * @license MIT <https://github.com/CodeIncHQ/ConfigFileUnitTest/blob/master/LICENSE>

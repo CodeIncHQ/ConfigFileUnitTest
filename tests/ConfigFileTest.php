@@ -21,17 +21,17 @@
 //
 declare(strict_types=1);
 namespace CodeInc\ConfigFileUnitTest\Tests;
-use CodeInc\ConfigFileUnitTest\AbstractConfigFileUnitTest;
+use CodeInc\ConfigFileUnitTest\ConfigFileTestCase;
 
 
 /**
- * Class ConfigFileUnitTest
+ * Class ConfigFileTest
  *
- * @uses AbstractConfigFileUnitTest
+ * @uses    ConfigFileTestCase
  * @package CodeInc\ConfigFileUnitTest\Tests
  * @author  Joan Fabrégat <joan@codeinc.fr>
  */
-class ConfigFileUnitTest extends AbstractConfigFileUnitTest
+class ConfigFileTest extends ConfigFileTestCase
 {
     private const CONSTANTS = ['CONST_1', 'CONST_2', 'CONST_3', 'CONST_4', 'CONST_5'];
 
